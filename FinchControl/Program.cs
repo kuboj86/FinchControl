@@ -28,7 +28,7 @@ namespace FinchControl
         public static void DisplayMenuPrompt(string menuName)
         {
             Console.WriteLine();
-            Console.WriteLine($"\tPress any key to return to the {menuName} Menu.");
+            Console.WriteLine($"\tPress any key to return to the {menuName}.");
             Console.ReadKey();
         }
     }
